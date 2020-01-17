@@ -1,0 +1,37 @@
+#  关系数据全量同步到中心CMDB
+'host': '182.251.3.26',
+'port': 21,
+'path': '/usr/local/dev/san/cmdb/schedule',
+'user': 'sanuser',
+'password': 'sanuser'
+
+
+#  从中心CMDB的FTP服务器文件，主要包括应用报表文件、交换机端口CI编号信息、交换机板卡CI编号信息
+'host': '182.1.203.243',
+'user': 'storage',
+'password': 'Storage@1234'
+'/'
+
+
+# ftp上传巡检结果至中心CMDB
+'host': '182.251.3.26',
+'user': 'ftpuser1',
+'password': 'ftpuser1'
+下载思科的模板：'/'
+上传：'/usr/local/dev/inspection/equipment'
+
+huawei_ftp_info = {
+            'host': '182.241.15.101',
+            'port': 21,
+            'path': '/sys/guogy/down/huawei/config/',
+            'user': 'guogy',
+            'password': '111111'
+        }
+# 获取NetApp文件
+netapp_ftp_info = {
+            'host': '182.241.15.101',
+            'port': 21,
+            'path': '/sys/guogy/down/netapp/config/',
+            'user': 'guogy',
+            'password': '111111'
+        }

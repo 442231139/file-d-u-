@@ -1,0 +1,6 @@
+*.py[cod]
+*.pyc
+*.db
+.idea/*
+*.txt
+*.TXT

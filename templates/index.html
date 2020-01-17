@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<br><br><br>
+{% for i in res %}
+<div><a href="{{i}}">{{ i }}</a>
+    <a href="download/{{i}}">
+        <button type="button">下载</button>
+    </a>
+</div>
+{% endfor %}
+<br><br>
+<h3><a href="upload">
+    <button type="button">上传</button>
+</a></h3>
+<br>
+</body>
+</html>
